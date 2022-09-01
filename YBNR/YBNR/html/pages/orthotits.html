@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Orthotits</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='main.js'></script>
+</head>
+<style>
+.card{
+    box-shadow: 4px 6px 6px 4px black;
+   height: 500px;
+   color: white;
+   background-color: gray;
+}
+body{
+    background-color: lightslategrey;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../image/logo.png" alt="" width="100px" height="70px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./about.html">About Us</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./services.html">serveices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./Product.html">Product</a>
+            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   All Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./orthotits.html">Orthotits</a></li>
+                  <li><a class="dropdown-item" href="./Cupping.html">
+                    Cupping therapy</a></li>
+                  <li><a class="dropdown-item" href="./Compression.html">Compression Soch</a></li>
+                  <li><a class="dropdown-item" href="./oil.html">Oil</a></li>
+                  <li><a class="dropdown-item" href="./lotion.html">Lotion</a></li>
+                  <li><a class="dropdown-item" href="./hand gloves.html">Hand gloves</a></li>
+                  <li><a class="dropdown-item" href="./Dumb bell.html">Dumb bell</a></li>
+                  <li><a class="dropdown-item" href="./Acne treatment.html">Acne treatment</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./contact.html">Contact Us</a>
+              </li>
+              <h2 style="margin-left: 140px;"><i>Price:</i></h2>
+              <h2 style="margin-left: 30px;" id="demo"></h2>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <div class="container">
+<div class="row">
+          <div class="col-md-4">
+            <h1 style= "box-shadow: 1px 4px 6px 1px; background-color: rgb(99, 99, 99);"text-align:center;data-aos="fade-down" 
+            data-aos-easing="linear"
+            data-aos-duration="1500">𝓞𝓻𝓽𝓱𝓸𝓽𝓲𝓽𝓼</h1>
+          </div>
+</div>
+      </div>
+     
+      <br>
+      <br>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" >
+                    <img src="../image/o1.jpg" class="card-img-top" alt="..." height="255px
+                    ">
+                    <div class="card-body">
+                      <h5 class="card-title">Orthotits</h5>
+                      <p class="card-text">Orthoses (orthotic devices) are classified into classes of four body areas according to the international (English: Classes limb orthoses), </p>
+                      <h4 style="color: white; "><b>$190</b></h4>
+                      <button onclick="add2cart(190)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <img src="../image/o2.jpg" class="card-img-top" alt="..." height="250px
+                    ">
+                    <div class="card-body">
+                      <h5 class="card-title">Hand Positioning Brace</h5>
+                      <p class="card-text">Developed over a number of years utilising a sound biomechanical base, the Ambroise is available in the UK through Steeper. </p>
+                      <h4 style="color: white; "><b>$230</b></h4>
+                      <a href="" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <img src="../image/o3.jpg" class="card-img-top" alt="..." height="250px
+                    ">
+                    <div class="card-body">
+                      <h5 class="card-title">Comfort Splints</h5>
+                      <p class="card-text">Incorporating lightweight and highly functional orthoses for both upper and lower extremity  orthoses for both upper  applications, </p>
+                      <h4 style="color: white; "><b>$290</b></h4>
+                      <button onclick="add2cart(290)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      <br>
+      <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                  <img src="../image/o4.jpg" class="card-img-top" alt="..." height="255px
+                  ">
+                  <div class="card-body">
+                    <h5 class="card-title">Hip Control</h5>
+                    <p class="card-text">This modular hip orthosis system offers functional and effective support in the treatment of various hip pathologies. </p>
+                    <h4 style="color: white; "><b>$120</b></h4>
+                    <a href="" class="btn btn-primary">Buy Now</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                  <img src="../image/o5.jpg" class="card-img-top" alt="..." height="250px
+                  ">
+                  <div class="card-body">
+                    <h5 class="card-title">Universal ROM Knee Brace</h5>
+                   
+                    <p class="card-text">The Universal ROM Knee Brace features butterfly padding to prevent migration and has an adjustable length from 57-69cm. </p>
+                    <h4 style="color: white; "><b>$62</b></h4>
+                    <button onclick="add2cart(62)" class="btn btn-primary">Buy Now</button>
+                    
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                  <img src="../image/o6.jpg" class="card-img-top" alt="..." height="250px
+                  ">
+                  <div class="card-body">
+                    <h5 class="card-title">Knee Brace</h5>
+                    <p class="card-text">The Steeper Standard Knee Brace and the Long Knee Brace are suitable for a full range of knee ailments from patella. </p>
+                    <h4 style="color: white; "><b>$79</b></h4>
+                    <button onclick="add2cart(79)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+      <br>
+      <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                  <img src="../image/o7.jpg" class="card-img-top" alt="..." height="255px
+                  ">
+                  <div class="card-body">
+                    <h5 class="card-title">Myo Kinisi</h5>
+                    <p class="card-text">The Myo Kinisi is a myoelectrically controlled terminal device engineered to provide optimal control, responding</p>
+                    <h4 style="color: white; "><b>$150</b></h4>
+                    <button onclick="add2cart(150)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                  <img src="../image/o8.jpg" class="card-img-top" alt="..." height="250px
+                  ">
+                  <div class="card-body">
+                    <h5 class="card-title">S-Charge System</h5>
+                    <p class="card-text">The S-Charge System is a user friendly, powerful internal battery system with an OLED Display and a magnetic charger, </p>
+                    <h4 style="color: white; "><b>$180</b></h4>
+                    <button onclick="add2cart(180)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                  <img src="../image/o9.jpg" class="card-img-top" alt="..." height="250px
+                  ">
+                  <div class="card-body">
+                    <h5 class="card-title">Adult Cosmetic Hands</h5>
+                    <p class="card-text">Our cosmetic hands are designed for dress purposes only and are intended for use with our silicone and PVC cosmetic gloves.</p>
+                    <h4 style="color: white; "><b>$138</b></h4>
+                    <button onclick="add2cart(138)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                  <img src="../image/o10.jpg" class="card-img-top" alt="..." height="255px
+                  ">
+                  <div class="card-body">
+                    <h5 class="card-title">Freedom Kinnex 2.0</h5>
+                    <p class="card-text">The Kinnex 2.0 utilises cutting-edge microprocessor technology to provide low to moderate impact ambulators.</p>
+                    <h4 style="color: white; "><b>$192</b></h4>
+                    <button onclick="add2cart(192)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                  <img src="../image/o11.jpg" class="card-img-top" alt="..." height="250px
+                  ">
+                  <div class="card-body">
+                    <h5 class="card-title">Seattle Kinetic Light</h5>
+                    <p class="card-text">The Kinetic Light incorporates a conventional, easy to access male pyramid adapter, and has a slightly higher build height.</p>
+                    <h4 style="color: white; "><b>$111</b></h4>
+                    <button onclick="add2cart(111)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
+                  <img src="../image/o12.jpg" class="card-img-top" alt="..." height="250px
+                  ">
+                  <div class="card-body">
+                    <h5 class="card-title">Freedom DynAdapt</h5>
+                    <p class="card-text">With a slim profile and anatomical design, the carbon fibre DynAdapt foot is easy to fit and cover with a cosmesis. Its full-</p>
+                    <h4 style="color: white; "><b>$183</b></h4>
+                    <button onclick="add2cart(183)" class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+       <!-- Footer -->
+ <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our Appointement</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Submit
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Affordable, Professional Therapy from Any Device. Text, Chat & Video Options Available. Convenient, Discreet, Professional Online Therapy Anytime, Anywhere. Get Started Now! Safe Environment. Find A Therapist. Licensed Therapists. Low Flat Fee.
+  
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Product</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./orthotits.html" class="text-white" style="text-decoration: none;">Othotits</a>
+              </li>
+              <li>
+                <a href="./oil.html" class="text-white" style="text-decoration: none;">Oil</a>
+              </li>
+              <li>
+                <a href="lotion.html" class="text-white" style="text-decoration: none;">Lotion</a>
+              </li>
+              <li>
+                <a href="hand gloves.html" class="text-white" style="text-decoration: none;">Hand gloves</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Product</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="Cupping.html" class="text-white" style="text-decoration: none;">Cupping therapy</a>
+              </li>
+              <li>
+                <a href="Compression.html" class="text-white" style="text-decoration: none;">Compression Soch</a>
+              </li>
+              <li>
+                <a href="Dumb bell.html" class="text-white" style="text-decoration: none;">Dumb bell</a>
+              </li>
+              <li>
+                <a href="Acne treatment.html" class="text-white" style="text-decoration: none;">Acne treatment</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Menu</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="home.html" class="text-white" style="text-decoration: none;">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white" style="text-decoration: none;">About Us</a>
+              </li>
+              <li>
+                <a href="Services.html" class="text-white" style="text-decoration: none;">Service</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-white" style="text-decoration: none;">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact Detail</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Landline Number</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">+92378205117</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">WhatsApp Number</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">+923110203081</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Zaratherapyclinic.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+<script>
+  var totalprice=0
+  var counter=0
+  function add2cart(price)
+  {
+      counter=counter+1
+    totalprice=totalprice+price
+    document.getElementById("demo").innerHTML=totalprice
+    document.getElementById("demo1").innerHTML=counter 
+    localStorage.setItem("totalprice",totalprice)
+  }
+  
+  </script>
+</body>
+</html>

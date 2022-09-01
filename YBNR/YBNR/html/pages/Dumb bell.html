@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dumb bell</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .card{
+      box-shadow: 4px 0px 6px 0px black;
+    height: 500px;
+    color: white;
+    background-color: gray;
+    }
+    body{
+        background-color: lightslategrey;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../image/logo.png" alt="" width="100px" height="70px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="">About Us</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./Product.html">Product</a>
+            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  All Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./orthotits.html">Orthotits</a></li>
+                  <li><a class="dropdown-item" href="./Cupping.html">
+                    Cupping therapy</a></li>
+                  <li><a class="dropdown-item" href="./Compression.html">Compression Soch</a></li>
+                  <li><a class="dropdown-item" href="./oil.html">Oil</a></li>
+                  <li><a class="dropdown-item" href="./lotion.html">Lotion</a></li>
+                  <li><a class="dropdown-item" href="./hand gloves.html">Hand gloves</a></li>
+                  <li><a class="dropdown-item" href="./Dumb bell.html">Dumb bell</a></li>
+                  <li><a class="dropdown-item" href="./Acne treatment.html">Acne treatment</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./contact.html">Contact Us</a>
+              </li>
+              <h2 style="margin-left: 140px;"><i>Price:</i></h2>
+              <h2 style="margin-left: 30px;" id="demo"></h2>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h1 style="text-align: center; box-shadow: 1px 4px 1px 6px ;background-color: rgb(99, 99, 99);">
+              𝓓𝓾𝓶𝓫 𝓫𝓮𝓵𝓵
+              </h1>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;" 
+                data-aos="fade-zoom-in"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="300"
+                     data-aos-offset="0">
+                    <img src="../image/d1.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Dumb bell 1kg Tunturi</h5>
+                      <p class="card-text">A workout doesn't have to be boring. You can easily make your workout simpler with this cheerful pink Tunturi Dumbbell set. Tune in and get started! This is a set of 2 dumbbells, weighing 0.5 kg. each.</p>
+                      <h4 style="color: white; "><b>$71</b></h4>
+                      <button onclick="add2cart(71)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;" 
+                data-aos="fade-zoom-in"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="300"
+                     data-aos-offset="0">
+                    <img src="../image/d2.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Dumb bell metal 10kg</h5>
+                      <p class="card-text">Kettler Hexagon dumbbells -used to exercise all major muscle groups, including arms, chest, back, abs, legs and core for any age.Rubber coated ends for durability and protection.</p>
+                      <h4 style="color: white; "><b>$65</b></h4>
+                      <button onclick="add2cart(65)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;" 
+                data-aos="fade-zoom-in"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="300"
+                     data-aos-offset="0">
+                    <img src="../image/d3.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Dumb bell 7kg Tunturi</h5>
+                      <p class="card-text">solid cast iron with a roll design and encased in rubber. The easy-grip handle measures 25mm in diameter. Most movements that can be done with a barbell  when performed with a Rubber dumbbell</p>
+                      <h4 style="color: white; "><b>$10</b></h4>
+                      <button onclick="add2cart(10)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+            </div>
+            </div>
+            <br>
+         
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" 
+                    data-aos="fade-zoom-in"
+                         data-aos-easing="ease-in-back"
+                         data-aos-delay="300"
+                         data-aos-offset="0">
+                        <img src="../image/d4.jpeg" class="card-img-top" alt="..." style="height: 200px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Dumb bell 8kg rubber</h5>
+                          <p class="card-text">Available from one pound up through 12 pounds, these weights are a great place to start your workout routine. They are perfect for training different muscle groups or improving stamina and balance.</p>
+                          <h4 style="color: white; "><b>$95</b></h4>
+                          <button onclick="add2cart(95)" class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+    
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" 
+                    data-aos="fade-zoom-in"
+                         data-aos-easing="ease-in-back"
+                         data-aos-delay="300"
+                         data-aos-offset="0">
+                        <img src="../image/d5.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Dumb bell 5kg</h5>
+                          <p class="card-text">Hexagon shape designed to prevent dumbbell rolling and provide easier storage. Premium quality and made of solid cast iron a protective black coating They are perfect for training different .</p>
+                          <h4 style="color: white; "><b>$70</b></h4>
+                          <button onclick="add2cart(70)" class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+    
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" 
+                    data-aos="fade-zoom-in"
+                         data-aos-easing="ease-in-back"
+                         data-aos-delay="300"
+                         data-aos-offset="0">
+                        <img src="../image/d6.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Dumb bell 1kg</h5>
+                          <p class="card-text">The easy-grip handle measures 25mm in diameter. Most movements that can be done with a barbell  when performed with a Rubber dumbbell  Premium quality and made of solid cast</p>
+                          <h4 style="color: white; "><b>$50</b></h4>
+                          <button onclick="add2cart(50)" class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;" 
+                data-aos="fade-zoom-in"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="300"
+                     data-aos-offset="0">
+                    <img src="../image/d7.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Dumb bell metal 25kg</h5>
+                      <p class="card-text">The Core Home Fitness Adjustable Dumbbell Set innovates the adjustable dumbbell, creating a satisfying workout experience that will leave you raring to get your hands around them, day after day.</p>
+                      <h4 style="color: white; "><b>$43</b></h4>
+                      <button onclick="add2cart(43)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;" 
+                data-aos="fade-zoom-in"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="300"
+                     data-aos-offset="0">
+                    <img src="../image/d8.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Dumb bell 10kg</h5>
+                      <p class="card-text">Designed for strength and functional training. Do endless variations of standing and floor exercises thanks to the hexagon shape and knurled grip will leave you raring to get your hands .</p>
+                      <h4 style="color: white; "><b>$81</b></h4>
+                      <button onclick="add2cart(81)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;" 
+                data-aos="fade-zoom-in"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="300"
+                     data-aos-offset="0">
+                    <img src="../image/d9.jpeg" class="card-img-top" alt="..." style="height: 200px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Dumb bell 12 Tunturi</h5>
+                      <p class="card-text">Build muscle mass and maintain your upper body strength from home with the Xpeed PVC Dumbbells. Great whether you are weight training or just staying fit, weights you are weight training</p>
+                      <h4 style="color: white; "><b>$38</b></h4>
+                      <button onclick="add2cart(38)" class="btn btn-primary">Buy Now</button>
+                    </div>
+                  </div>
+            </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" 
+                    data-aos="fade-zoom-in"
+                         data-aos-easing="ease-in-back"
+                         data-aos-delay="300"
+                         data-aos-offset="0">
+                        <img src="../image/d10.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Dumb bell 15kg</h5>
+                          <p class="card-text">These dumbbells have been designed to assist in a wide range of training and fitness exercises. These include strength training, flexibility, balance and hand coordination balance. </p>
+                          <h4 style="color: white; "><b>$85</b></h4>
+                          <button onclick="add2cart(85)" class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" 
+                    data-aos="fade-zoom-in"
+                         data-aos-easing="ease-in-back"
+                         data-aos-delay="300"
+                         data-aos-offset="0">
+                        <img src="../image/d11.jpg" class="card-img-top" alt="..." style="height:200px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Dumb bell 2kg sets</h5>
+                          <p class="card-text">Xpeed 6 Piece PVC Dumbbell Set with Rack Life gets better when you simplify, that's exactly what we've done with the These include strength training  balance and hand coordination</p>
+                          <h4 style="color: white; "><b>$56</b></h4>
+                          <button onclick="add2cart(56)" class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;" 
+                    data-aos="fade-zoom-in"
+                         data-aos-easing="ease-in-back"
+                         data-aos-delay="300"
+                         data-aos-offset="0">
+                        <img src="../image/d12.jpg" class="card-img-top" alt="..." style="height:200px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Dumb bell 5kg set</h5>
+                          <p class="card-text">ArrowMax BEST IN CLASS ( 0.5KG X 2PC) 1KG SMALL SIZE DUMBBELL SET Fixed Weight Dumbbell that's exactly what we've done with the These include strength training training, flexibility</p>
+                          <h4 style="color: white; "><b>$48</b></h4>
+                          <button onclick="add2cart(48)" class="btn btn-primary">Buy Now</button>
+                        </div>
+                      </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+                      <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our Appointement</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Submit
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Affordable, Professional Therapy from Any Device. Text, Chat & Video Options Available. Convenient, Discreet, Professional Online Therapy Anytime, Anywhere. Get Started Now! Safe Environment. Find A Therapist. Licensed Therapists. Low Flat Fee.
+  
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Product</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="orthotits.html" class="text-white" style="text-decoration: none;">Othotits</a>
+              </li>
+              <li>
+                <a href="oil.html" class="text-white" style="text-decoration: none;">Oil</a>
+              </li>
+              <li>
+                <a href="lotion.html" class="text-white" style="text-decoration: none;">Lotion</a>
+              </li>
+              <li>
+                <a href="hand gloves.html" class="text-white" style="text-decoration: none;">Hand gloves</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Product</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="Cupping.html" class="text-white" style="text-decoration: none;">Cupping therapy</a>
+              </li>
+              <li>
+                <a href="Compression.html" class="text-white" style="text-decoration: none;">Compression Soch</a>
+              </li>
+              <li>
+                <a href="Dumb bell.html" class="text-white" style="text-decoration: none;">Dumb bell</a>
+              </li>
+              <li>
+                <a href="Acne treatment.html" class="text-white" style="text-decoration: none;">Acne treatment</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Menu</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="home.html" class="text-white" style="text-decoration: none;">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white" style="text-decoration: none;">About Us</a>
+              </li>
+              <li>
+                <a href="Services.html" class="text-white" style="text-decoration: none;">Service</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-white" style="text-decoration: none;">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact Detail</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Landline Number</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">+92378205117</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">WhatsApp Number</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">+923110203081</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Zaratherapyclinic.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  
+              <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+              <script>
+                AOS.init();
+              </script> 
+              <script>
+                var totalprice=0
+                var counter=0
+                function add2cart(price)
+                {
+                    counter=counter+1
+                  totalprice=totalprice+price
+                  document.getElementById("demo").innerHTML=totalprice
+                  document.getElementById("demo1").innerHTML=counter 
+                  localStorage.setItem("totalprice",totalprice)
+                }
+                
+                </script>
+     
+</body>
+</html>

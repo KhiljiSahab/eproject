@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Oil</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src='main.js'></script>
+</head>
+<style>
+
+
+body{
+    background-color: lightslategrey;
+}
+.card{
+    box-shadow: 4px 5px 4px 5px black;
+    height: 500px;
+    color: white;
+    background-color: gray;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../image/logo.png" alt="" width="100px" height="70px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./about.html">About Us</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./services.html">Serveices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./Product.html">Product</a>
+            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   All Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./orthotits.html">Orthotits</a></li>
+                  <li><a class="dropdown-item" href="./Cupping.html">
+                    Cupping therapy</a></li>
+                  <li><a class="dropdown-item" href="./Cupping.html">Compression Soch</a></li>
+                  <li><a class="dropdown-item" href="./oil.html">Oil</a></li>
+                  <li><a class="dropdown-item" href="./lotion.html">Lotion</a></li>
+                  <li><a class="dropdown-item" href="./hand gloves.html">Hand gloves</a></li>
+                  <li><a class="dropdown-item" href="./Dumb bell.html">Dumb bell</a></li>
+                  <li><a class="dropdown-item" href="./Acne treatment.html">Acne treatment</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./contact.html">Contact US</a>
+              </li>
+              <h2 style="margin-left: 140px;"><i>Price:</i></h2>
+              <h2 style="margin-left: 30px;" id="demo"></h2>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+       <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h1 style="text-align: center; box-shadow: 1px 4px 1px 6px ;background-color: rgb(99, 99, 99);">𝓞𝓲𝓵</h1>
+
+          </div>
+
+        </div>
+
+       </div>
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil1.png" class="card-img-top" alt="" style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Neutrogena Body Oil, 473ml</h5>
+                  <p class="card-text">Get smooth skin that looks silky with our award-winning lightweight sesame body oil moisturizer, locking in the moisture you need to achieve soft, smooth skin.</p>
+                  <h4 style="color: white; "><b>$43</b></h4>
+                  <button onclick="add2cart(43)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil2.jfif" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Cocoa Butter Formula Moisturizing Body Oil</h5>
+                  <p class="card-text">Palmer's Cocoa Butter Formula Moisturizing Body Oil, enriched with Vitamin E, is a fast absorbing, dry skin without greasiness.Features a flip top cap for easy application.</p>
+                  <h4 style="color: white; "><b>$48</b></h4>
+                  <button onclick="add2cart(48)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil3.webp" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Mango scent: The Body Mango Beautifying Oil</h5>
+                  <p class="card-text">Made with Community Fair Trade cold-pressed marula nut oil as well as mango seed oil, The Body Shop will put you in the mood for a tropical resort holiday.</p>
+                  <h4 style="color: white; "><b>$53</b></h4>
+                  <button onclick="add2cart(53)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil4.png" class="card-img-top" alt="" style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">5 Precious Oils Ultra Nourishing Body Oil </h5>
+                  <p class="card-text">48H intense regeneration & smoothing
+                    97% skin condition & appearance improvement
+                    Active BODY GLOW formula spectacularly elasticise.</p>
+                    <h4 style="color: white; "><b>$36</b></h4>
+                    <button onclick="add2cart(36)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil5.webp" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">The Body Oil - 100% Organic. 100% Cold-Pressed</h5>
+                  <p class="card-text"> A fast-absorbing treatment oil rich in critical antioxidants, vitamins, and omegas 6-7-9 for dewy, glowy-looking skin.
+
+                    Skin Type: Normal, Dry.</p>
+                    <h4 style="color: white; "><b>$63</b></h4>
+                    <button onclick="add2cart(63)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil6.png" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Almond Oil - Chiltan Pure</h5>
+                  <p class="card-text">Sweet Almond Oil is a nourishing oil that’s perfect for reviving any skin type. Almond oil is derived naturally from pressed almonds.Reducing skin itching
+                    Moisturizing skin</p>
+                    <h4 style="color: white; "><b>$32</b></h4>
+                    <button onclick="add2cart(32)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil7.webp" class="card-img-top" alt="" style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">ELEMIS - MUSCLEASE ACTIVE BODY OIL</h5>
+                  <p class="card-text">Perfect as part of a fitness programme this synergy of ingredients help ease muscle pain and stressed joints.
+                    BENEFITS:Â Relieves, Relaxes, Soothes.</p>
+                    <h4 style="color: white; "><b>$50</b></h4>
+                    <button onclick="add2cart(50)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil8.webp" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Supergoop Glow Oil Body Sunscreen SPF 50</h5>
+                  <p class="card-text">What's better than a body oil that makes you radiant? A body oil that makes you radiant and provides you with sun protection. vitamin E than olive oil for nourished, skin. </p>
+                  <h4 style="color: white; "><b>$44</b></h4>
+                  <button onclick="add2cart(44)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil9.webp" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Ren Atlantic Kelp and Microalgae Toning Body Oil</h5>
+                  <p class="card-text">Ren's moisturizing Atlantic Kelp and Microalgae Anti-Fatigue Toning Body Oil does way more than keep skin smooth-to-the-touch. The formula boasts sea salt.</p>
+                  <h4 style="color: white; "><b>$39</b></h4>
+                  <button onclick="add2cart(39)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil10.webp" class="card-img-top" alt="" style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Kora Organics Noni Glow Body Oil</h5>
+                  <p class="card-text">Having scooped up an Allure Best of Beauty Award in 2017, Kora Organics' Body Oil is a not-so-secret (an antioxidant-rich fruit native to the South Pacific islands)</p>
+                  <h4 style="color: white; "><b>$24</b></h4>
+                  <button onclick="add2cart(24)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil11.webp" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Ouai Rose Hair & Body Oil</h5>
+                  <p class="card-text"> We love a two-in-one product and Ouai's Rose Hair & Body Oil is just that. This multi-tasker features a subtle scent of rose or, Ouai Melrose Place products if you're familiar.</p>
+                  <h4 style="color: white; "><b>$47</b></h4>
+                  <button onclick="add2cart(47)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;" 
+            data-aos="fade-zoom-in"
+                 data-aos-easing="ease-in-back"
+                 data-aos-delay="300"
+                 data-aos-offset="0">
+                <img src="../image/oil12.webp" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">La Mer The Renewal Body Oil Balm</h5>
+                  <p class="card-text">We get it, $210 for a body oil seems absurd, but hear us out. La Mer's The Renewal Body Oil Balm is a luxurious after-bath product feel rich and gleam from head to toe.</p>
+                  <h4 style="color: white; "><b>$64</b></h4>
+                  <button onclick="add2cart(64)" class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our Appointement</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Submit
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Affordable, Professional Therapy from Any Device. Text, Chat & Video Options Available. Convenient, Discreet, Professional Online Therapy Anytime, Anywhere. Get Started Now! Safe Environment. Find A Therapist. Licensed Therapists. Low Flat Fee.
+  
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Product</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./orthotits.html" class="text-white" style="text-decoration: none;">Othotits</a>
+              </li>
+              <li>
+                <a href="./oil.html" class="text-white" style="text-decoration: none;">Oil</a>
+              </li>
+              <li>
+                <a href="./lotion.html" class="text-white" style="text-decoration: none;">Lotion</a>
+              </li>
+              <li>
+                <a href="./hand gloves.html" class="text-white" style="text-decoration: none;">Hand gloves</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Product</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./Cupping.html" class="text-white" style="text-decoration: none;">Cupping therapy</a>
+              </li>
+              <li>
+                <a href="./Compression.html" class="text-white" style="text-decoration: none;">Compression Soch</a>
+              </li>
+              <li>
+                <a href="./Dumb bell.html" class="text-white" style="text-decoration: none;">Dumb bell</a>
+              </li>
+              <li>
+                <a href="./Acne treatment.html" class="text-white" style="text-decoration: none;">Acne treatment</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Menu</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./home.html" class="text-white" style="text-decoration: none;">Home</a>
+              </li>
+              <li>
+                <a href="./about.html" class="text-white" style="text-decoration: none;">About Us</a>
+              </li>
+              <li>
+                <a href="./Services.html" class="text-white" style="text-decoration: none;">Service</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="text-white" style="text-decoration: none;">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact Detail</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">Landline Number</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">+92378205117</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">WhatsApp Number</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white" style="text-decoration: none;">+923110203081</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Zaratherapyclinic.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script>
+    AOS.init();
+  </script> 
+  <script>
+    var totalprice=0
+    var counter=0
+    function add2cart(price)
+    {
+        counter=counter+1
+      totalprice=totalprice+price
+      document.getElementById("demo").innerHTML=totalprice
+      document.getElementById("demo1").innerHTML=counter 
+      localStorage.setItem("totalprice",totalprice)
+    }
+    
+    </script>
+</body>
+</html>
